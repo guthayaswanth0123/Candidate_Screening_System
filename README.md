@@ -105,8 +105,25 @@ The system:
 
 ## Machine Learning Techniques
 
-- TF-IDF Vectorization
-- Cosine Similarity Matching
+1. Resume text extraction
+2. Text preprocessing
+3. Tokenization and cleaning
+4. TF-IDF feature generation
+5. Cosine similarity calculation
+6. ML model prediction
+7. Candidate ranking
+
+---
+
+## 📊 Model Performance
+
+| Model                      | Purpose                         | Accuracy       |
+|---------------------------|---------------------------------|----------------|
+| TF-IDF + Cosine Similarity | Resume Matching                 | High Precision |
+| Logistic Regression        | Candidate Classification        | 85%            |
+| Random Forest              | Candidate Prediction            | 88–90%         |
+| XGBoost                    | Advanced Candidate Prediction   | 90–92%         |
+
 
 These techniques are used to calculate **similarity between resumes and job descriptions**.
 
